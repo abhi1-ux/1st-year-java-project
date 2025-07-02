@@ -1,0 +1,5 @@
+ID    Name            Location        Phone           Email                     Membership Start     Plan       Price      Attendance  Loyalty Points Active Status Full Payment    Discount Amount Net Amount Paid
+-----------------------------------------------------------------------------------------------------------------------------
+1     Abhishek        Nardevi         1234567890      abhisheksh605@gmail.com   1 January 2023       deluxe     18500.00   150                    150 Active     No              N/A             0.00           
+Removal Reason: Has an injury and needs at least of 6 months to heal.
+2     Aayushma        Banepa          9874563210      aayushma@gmail.com        1 January 2023       Premium    50000.00   0                        0 Inactive   No              0.00            0.00           
