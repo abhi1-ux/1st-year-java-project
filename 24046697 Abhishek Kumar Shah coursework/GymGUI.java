@@ -663,7 +663,7 @@ public class GymGUI extends JFrame {
 
                     if (name.isEmpty() || !name.matches("[a-zA-Z\\s]+")) {
                         throw new IllegalArgumentException("Name must contain letters only.");
-                    }
+                    }//hnhcb k
                     if (phone.isEmpty() || !phone.matches("\\d{10}")) {
                         throw new IllegalArgumentException("Phone must be a 10-digit number.");
                     }
