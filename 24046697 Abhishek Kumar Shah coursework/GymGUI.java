@@ -45,7 +45,6 @@ public class GymGUI extends JFrame {
         fr1.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         fr1.getContentPane().setBackground(new Color(255, 255, 255));
 
-        // Header
         JPanel headerPanel = new JPanel();
         headerPanel.setBounds(0, 0, 1400, 80);
         headerPanel.setBackground(new Color(0, 128, 128));
@@ -592,7 +591,7 @@ public class GymGUI extends JFrame {
         planField.setBounds(200, 520, 200, 30);
         planField.setFont(new Font("Segoe UI", Font.PLAIN, 18));
         fr3.add(planField);
-
+//dhbsjk1234
         JCheckBox fullPaymentCheck = new JCheckBox("Paid in Full");
         fullPaymentCheck.setFont(new Font("Segoe UI", Font.PLAIN, 18));
         fullPaymentCheck.setBackground(new Color(255, 255, 255));
@@ -663,7 +662,7 @@ public class GymGUI extends JFrame {
 
                     if (name.isEmpty() || !name.matches("[a-zA-Z\\s]+")) {
                         throw new IllegalArgumentException("Name must contain letters only.");
-                    }//hnhcb k
+                    } //this is my comment
                     if (phone.isEmpty() || !phone.matches("\\d{10}")) {
                         throw new IllegalArgumentException("Phone must be a 10-digit number.");
                     }
