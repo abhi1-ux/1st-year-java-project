@@ -657,7 +657,7 @@ public class GymGUI extends JFrame {
                     for (GymMember member : list) {
                         if (member.getId() == id) {
                             throw new IllegalArgumentException("Member ID already exists.");
-                        }
+                        }//1234
                     }
 
                     if (name.isEmpty() || !name.matches("[a-zA-Z\\s]+")) {
